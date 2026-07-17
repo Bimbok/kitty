@@ -1,5 +1,42 @@
-Demo
-<img width="1920" height="1048" alt="Image" src="https://github.com/user-attachments/assets/441b792a-ff79-44bd-ab0f-13feefc98d33" />
+# 󰄛 kitty.conf
 
-Background Image
-<img width="5376" height="3072" alt="Image" src="https://github.com/user-attachments/assets/94a9563c-20ef-4c1f-94bb-ec3025e8001d" />
+A minimalist, high-performance Kitty configuration styled dynamically using Material Design 3 palettes via Matugen.
+Alternative, GPU-accelerated terminal environment tailored for seamless workflows under Wayland and Hyprland.
+
+---
+
+## 󰏊 Preview
+
+![Kitty Dynamic Theme Demo](./Sample/1.png)
+
+_Theme colors adapt on-the-fly to the system wallpaper palette._
+
+---
+
+## 󰓼 Features
+
+- **Matugen Powered:** Fully dynamic color compliance (borders, text, tabs, and markers).
+- **Aesthetic Layout:** Clean rounded-powerline tab bar styling with clear workspace indicators.
+- **Wayland Native:** Configured specifically for high-refresh rendering under Wayland/Hyprland.
+- **Fluid Effects:** Smooth cursor trailing enabled with tailored decay metrics.
+- **Ligated Typography:** Driven by `FiraCode Nerd Font SemBd` with constant ligature evaluation.
+
+---
+
+## 🛠️ Structure
+
+```env
+~/.config/kitty/
+├── kitty.conf   # Main configuration engine
+└── colors.conf  # Generated color definitions (Matugen)
+```
+
+---
+
+## ⌨️ Keybindings
+
+| Key Combo              | Action                                         |
+| ---------------------- | ---------------------------------------------- |
+| `Ctrl + Shift + F5`    | Live reload configuration without restarting   |
+| `Ctrl + Shift + = / -` | Increment / decrement font scaling scales      |
+| `Alt + H / J / K / L`  | Navigate localized terminal windows seamlessly |
