@@ -1,0 +1,20 @@
+
+# Tab 1 - Neovim
+new_tab Editor
+cd ~/shared/code/working_on/fyzenor/
+launch fish -c "nvim"
+
+# Tab 2 - AI Agent
+new_tab AI
+cd ~/Projects/Fyzenor
+launch fish -c agy
+
+# Tab 3 - Build / Test
+new_tab Build
+cd ~/shared/code/working_on/fyzenor/build/
+launch fish
+
+# Tab 4 - Free Shell
+new_tab Shell
+cd ~/shared/code/working_on/fyzenor/
+launch fish -c fyzenor
