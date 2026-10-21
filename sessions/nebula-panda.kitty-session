@@ -1,0 +1,16 @@
+
+new_tab agy nebula-panda
+cd /home/bimbok/shared/code/working_on/DriveStreamer
+launch fish -c "agy --conversation=61848bc4-6d12-49f2-8951-0694dbd74091"
+
+new_tab nvim fyzenor
+cd ~/shared/code/working_on/fyzenor/
+launch fish -c "nvim"
+
+new_tab server
+cd /home/bimbok/shared/code/working_on/DriveStreamer
+launch fish
+
+new_tab fyzenor
+cd /home/bimbok/shared/code/working_on/DriveStreamer
+launch fish -c fyzenor

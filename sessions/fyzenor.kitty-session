@@ -1,0 +1,17 @@
+
+
+new_tab agy fyzenor
+cd ~/shared/code/working_on/fyzenor/
+launch fish -c "agy --conversation=012081d9-f157-4852-b359-11fc9b3c0fcf"
+
+new_tab nvim fyzenor
+cd ~/shared/code/working_on/fyzenor/
+launch fish -c "nvim"
+
+new_tab build
+cd ~/shared/code/working_on/fyzenor/build/
+launch fish
+
+new_tab fyzenor
+cd ~/shared/code/working_on/fyzenor/
+launch fish -c fyzenor

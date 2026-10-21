@@ -1,0 +1,14 @@
+# Kitty session: Tide-island development workflow
+# Start with: kitty --session /mnt/data/Tide-island.kitty-session
+
+new_tab agy Tide-Island-Extended
+cd /home/bimbok/shared/code/working_on/Tide-island
+launch fish -c "agy --conversation=201928bb-25c7-4d75-9128-4be36f96e7b6"
+
+new_tab nvim Tide-Island-Extended
+cd /home/bimbok/shared/code/working_on/Tide-island
+launch --title nvim nvim
+
+new_tab fyzenor
+cd /home/bimbok/shared/code/working_on/Tide-island
+launch fish -c fm
